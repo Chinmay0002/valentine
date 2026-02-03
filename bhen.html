@@ -134,7 +134,7 @@ function swapButtons() {
 
 // only run when hovering the button that SAYS "No"
 // swap ONLY when hovering the button that says "No"
-document.addEventListener("mouseover", (e) => {
+document.addEventListener("touchstart", (e) => {
   if (
     e.target.tagName === "BUTTON" &&
     e.target.innerText.toLowerCase().includes("no")
